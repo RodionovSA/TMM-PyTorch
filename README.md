@@ -109,7 +109,7 @@ subs_mat  = Material([disp_subs],  name="Substrate")
 
 # Layers
 env_layer  = Layer(env_mat,  layer_type="env")
-film_layer = Layer(film_mat, layer_type="coh",  thickness=500e-9)
+film_layer = Layer(film_mat, layer_type="coh",  thickness=500)
 subs_layer = Layer(subs_mat, layer_type="subs")
 
 # Build model and move to GPU
